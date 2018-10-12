@@ -1,0 +1,44 @@
+/* .item1 { grid-area: left; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+
+    'item1 item1 item2 item2'
+    'item1 item1 item2 item2'
+    'item3 item3 item4 item4'
+    'item3 item3 item4 item4';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 100px;
+  font-size: 30px;
+} */
+
+
+
+
+.img {
+    float: none;
+
+    width:  350px;
+    height: 250px;
+
+
+    margin-left: 18px;
+}
+figcaption {
+    display: table-caption;
+    text-align: center;
+    font-size: 12px;
+    width:  350px;
+    margin-left: 18px;
+}

@@ -1,0 +1,89 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+background-image: radial-gradient(white, Black);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: Black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+
+/* .active {
+  background-color: white;
+
+} */
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+/* background */
+body{
+  background-image: url("../Images/background.jfif");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: 100%;
+  color: white;
+}
+
+/* Hobbies page pictures */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.size{
+  height: 350px;
+  width: 520px;
+  align: middle;
+}
+.food{
+  height: 330px;
+  width: 500px;
+  align: middle;
+}
+.size1{
+  height: 350px;
+  width: 500px;
+  align: middle;
+}
+
+div{
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+
+  }
+
+
+
+
+
+p{
+      background-color: #010101;
+}
+figcaption{
+    background-color: #010101;
+}
+ul{
+    background-color: #010101;
+}
