@@ -35,10 +35,24 @@
 
     margin-left: 18px;
 }
+.img2{
+  float: right;
+  margin-left: 450;
+}
 figcaption {
     display: table-caption;
     text-align: center;
     font-size: 12px;
     width:  350px;
     margin-left: 18px;
+}
+/* MY WORK PAGE */
+.img1 {
+    float: center;
+
+    width:  350px;
+    height: 250px;
+
+
+    margin-left: 500px;
 }

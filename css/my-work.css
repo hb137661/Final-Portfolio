@@ -1,0 +1,45 @@
+body{
+  background-image: url("../Images/background.jfif");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-size: 100%;
+  color: white;
+}
+ul {
+    background-color: #010101;
+}
+figcaption {
+    background-color: #010101;
+}
+/* NAVBAR */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+background-image: radial-gradient(white, Black);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: Black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+  background-color: red;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+
+
+/* WORDS AND WORD BACKGROUND */
+p {
+  backface-visibility: visible;
+}

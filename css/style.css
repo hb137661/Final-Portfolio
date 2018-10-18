@@ -39,51 +39,78 @@ body{
   color: white;
 }
 
-/* Hobbies page pictures */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
-.size{
-  height: 350px;
-  width: 520px;
-  align: middle;
-}
-.food{
-  height: 330px;
-  width: 500px;
-  align: middle;
-}
-.size1{
-  height: 350px;
-  width: 500px;
-  align: middle;
-}
 
-div{
+/* div{
   margin: auto;
   padding: 10px;
   width: 30%;
 
-  }
+  } */
+
+/* CURRENT JOB WORD BACKGROUND */
+.p{
+  background-color: gray;
+  color: black;
+  font-size: 20px;
+}
 
 
-
-
-
+/* WORD BACKGROUNDS */
 p{
       background-color: #010101;
+}
+.centerP{
+  text-align: center;
 }
 figcaption{
     background-color: #010101;
 }
 ul{
     background-color: #010101;
+}
+/* TEXT INDENTATION */
+/* div.a {
+    text-indent: 50px;
+} */
+
+/* GRID */
+.item1 { grid-area: header; }
+
+.item3 { grid-area: main; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header, header, main, main, '
+    'header, header, main, main, '
+    'menu, menu, footer, footer, '
+    'menu, menu, footer, footer,';
+  grid-gap: 15px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+}
+/* C++ PICTURES */
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
