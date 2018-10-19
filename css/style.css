@@ -15,7 +15,7 @@ background-image: radial-gradient(white, Black);
 }
 
 .navbar a:hover {
-  background-color: red;
+  background-color: gray;
 }
 
 /* .active {
@@ -113,4 +113,8 @@ ul{
     content: "";
     clear: both;
     display: table;
+}
+
+h1{
+ text-align: center;
 }
